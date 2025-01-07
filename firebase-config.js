@@ -4,14 +4,18 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/10.7.1/firebase
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
 
 // Your Firebase Configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyC8mHZ59y9JI0GNvZfvb_gXX0qv9aw8dnY",
-  authDomain: "user-authentication-c36a8.firebaseapp.com",
-  projectId: "user-authentication-c36a8",
-  storageBucket: "user-authentication-c36a8.firebasestorage.app",
-  messagingSenderId: "554044026154",
-  appId: "1:554044026154:web:fe4aea0ca8a7d4fd12c253",
-  measurementId: "G-KYT3KGN0EN",
+var firebaseConfig = {
+  apiKey: "API_KEY",
+  authDomain: "PROJECT_ID.firebaseapp.com",
+  // The value of `databaseURL` depends on the location of the database
+  databaseURL: "https://DATABASE_NAME.firebaseio.com",
+  projectId: "PROJECT_ID",
+  // The value of `storageBucket` depends on when you provisioned your default bucket (learn more)
+  storageBucket: "PROJECT_ID.firebasestorage.app",
+  messagingSenderId: "SENDER_ID",
+  appId: "APP_ID",
+  // For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+  measurementId: "G-MEASUREMENT_ID",
 };
 
 // Initialize Firebase
